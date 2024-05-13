@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(cintas.jpg);
+    background-color: rgb(31, 29, 29);
+    background-blend-mode: soft-light;
+}
+
+header{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header .ne{
+    width: 150px;
+    height: 40px;
+}
+
+header nav{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+
+
+header nav ul li{
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    margin-top: 5px;
+
+}
+
+
+
+header nav ul li a{
+    margin: 20px 15px;
+    padding: 8px 25px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.cam{
+    border: 1px solid;
+    border-color: white;
+}
+
+.cam2{
+    background-color: rgb(194, 10, 10);
+}
+
+.icono{
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    background: white;
+}
+
+.conte{
+    margin: 100px 250px;
+    padding: 35px 50px;
+    text-align: center;
+    color: white;
+    
+}
+
+.tamano1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tamano2{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.tamano3{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.datos{
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+input{
+    margin:10px;
+    background-color: rgba(51, 51, 46, 0.2);
+    border: 1px solid;
+    border-color: rgb(75, 72, 72) ;
+    border-radius: 4px;
+    width: 360px;
+    padding: 4px;
+    height: 40px;
+    color: white;
+}
+
+.btn1{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(194, 10, 10);
+    color: white;
+    padding: 14px 25px;
+    border-radius: 4px;
+
+}
+
+
+
+
